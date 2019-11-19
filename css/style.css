@@ -1,3 +1,28 @@
-body{
-  background: red;
+.CenterBlock{
+        width:10%;
+        max-width: 1200px;
+        min-width: 300px;
+        height:240px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin:-150px 0 0 -150px;
+        border:1px solid #7a8585;
+        background: #bfc4c4;
+    }
+input, label{
+  width: 75%;
+  display: block;
+  padding: 5px;
+  margin-left: 10%;
+}
+button{
+  margin: 10px 0 0 10%;
+  padding: 5px 15px;
+  border: 2px solid #0ae487;
+  background: #fff;
+}
+button:hover{
+background: #0ae487;
+color: #fff;
 }
