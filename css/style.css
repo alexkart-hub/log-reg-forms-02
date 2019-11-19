@@ -17,6 +17,7 @@ input, label{
   margin-left: 10%;
 }
 button{
+  display: block;
   margin: 10px 0 0 10%;
   padding: 5px 15px;
   border: 2px solid #0ae487;
@@ -25,4 +26,7 @@ button{
 button:hover{
 background: #0ae487;
 color: #fff;
+}
+.select_date_day_birthday{
+  margin: 10px 0 0 10%;
 }
