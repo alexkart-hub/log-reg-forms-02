@@ -2,13 +2,14 @@
         width:10%;
         max-width: 1200px;
         min-width: 300px;
-        height:240px;
+        min-height:240px;
         position:absolute;
         top:50%;
         left:50%;
         margin:-150px 0 0 -150px;
         border:1px solid #7a8585;
         background: #bfc4c4;
+        padding-bottom: 15px;
     }
 input, label{
   width: 75%;
@@ -23,10 +24,20 @@ button{
   border: 2px solid #0ae487;
   background: #fff;
 }
-button:hover{
+button:hover {
 background: #0ae487;
 color: #fff;
 }
 .select_date_day_birthday{
   margin: 10px 0 0 10%;
+}
+a {
+  text-decoration: none;
+}
+.UserFigure {
+  min-height: 200px;
+  font-size: 5em;
+  top:50%;
+  left:50%;
+  margin:-50px 0 0 -50px;
 }
