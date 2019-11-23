@@ -2,18 +2,18 @@
         width:10%;
         max-width: 1200px;
         min-width: 300px;
-        min-height:240px;
+        min-height:200px;
         position:absolute;
         top:50%;
         left:50%;
-        margin:-150px 0 0 -150px;
+        margin:-100px 0 0 -150px;
         padding-bottom: 15px;
     }
 .full{
   border:1px solid #7a8585;
   background: #bfc4c4;
 }
-.cls{
+.wall{
   width: 100%;
   position:absolute;
   top:50%;
